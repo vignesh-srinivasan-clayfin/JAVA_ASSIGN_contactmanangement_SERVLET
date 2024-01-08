@@ -1,0 +1,80 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>maincontroller</servlet-name>
+  	<display-name>maincontroller</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.maincontroller</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>homepage</servlet-name>
+  	<display-name>homepage</display-name>
+  	<description></description>
+  	<servlet-class>com.view.homepage</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>deleteContactDetail</servlet-name>
+  	<display-name>deleteContactDetail</display-name>
+  	<description></description>
+  	<servlet-class>com.view.DeleteContactDetail</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteConfirm</servlet-name>
+  	<display-name>DeleteConfirm</display-name>
+  	<description></description>
+  	<servlet-class>com.view.DeleteConfirm</servlet-class>
+  </servlet> 
+  
+    <servlet>
+  	<servlet-name>addContactDetail</servlet-name>
+  	<display-name>addContactDetail</display-name>
+  	<description></description>
+  	<servlet-class>com.view.AddContactDetail</servlet-class>
+  </servlet>
+  
+  
+  
+  
+  <servlet>
+  	<servlet-name>EditContactDetail</servlet-name>
+  	<display-name>EditContactDetail</display-name>
+  	<description></description>
+  	<servlet-class>com.view.EditContactDetail</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EditContactConfirm</servlet-name>
+  	<display-name>EditContactConfirm</display-name>
+  	<description></description>
+  	<servlet-class>com.view.EditContactConfirm</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>AddContactConfirm</servlet-name>
+  	<display-name>AddContactConfirm</display-name>
+  	<description></description>
+  	<servlet-class>com.view.AddContactConfirm</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>DeleteConfirm</servlet-name>
+  	<url-pattern>/DeleteConfirm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditContactDetail</servlet-name>
+  	<url-pattern>/EditContactDetail</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EditContactConfirm</servlet-name>
+  	<url-pattern>/EditContactConfirm</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>AddContactConfirm</servlet-name>
+  	<url-pattern>/AddContactConfirm</url-pattern>
+  </servlet-mapping>
+</web-app>
